@@ -2,6 +2,7 @@ from experta import Rule, MATCH, TEST
 
 from facts.facts import State, NeedTotal, MaxLoad
 
+
 class GoalRules:
 
     @Rule(
@@ -47,11 +48,17 @@ class GoalRules:
         print("=" * 60)
 
         print(f"Final Robot Position: ({x}, {y})")
-        print(f"Robot Load Count: 0")
+        print("Robot Load Count: 0")
         print(f"Calculated Max Load: {max_load}")
         print(f"Delivered Needs: {len(delivered_keys)} / {total_needs}")
         print(f"Total Cost: {g}")
-        print(f"Search Depth: {depth}")
+
+        print("\nA* Cost Values:")
+        print(f"Final g(n): {g}")
+        print(f"Final h(n): {h}")
+        print(f"Final f(n): {f}")
+
+        print(f"\nSearch Depth: {depth}")
 
         print("\n" + "-" * 60)
         print("SOLUTION PATH")

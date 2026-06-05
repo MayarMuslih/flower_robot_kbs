@@ -1,6 +1,10 @@
 from experta import Rule, MATCH, TEST
 
-from facts.facts import Warehouse, PavilionLoad, ColorLoad, MaxLoad, State
+from facts.facts import Warehouse, Pavilion, PavilionLoad, ColorLoad, MaxLoad, State
+
+
+def manhattan_distance(x1, y1, x2, y2):
+    return abs(x1 - x2) + abs(y1 - y2)
 
 
 def load_items_not_delivered(load_items, delivered_keys):
@@ -29,11 +33,6 @@ def describe_load(load_items):
 
 class LoadRules:
 
-    # ==========================================
-    # OPTION B:
-    # تحميل ألوان مختلفة من نفس نوع الورد / نفس الجناح
-    # ==========================================
-
     @Rule(
         Warehouse(x=MATCH.wx, y=MATCH.wy),
         MaxLoad(value=MATCH.max_load),
@@ -59,6 +58,13 @@ class LoadRules:
             load_items=MATCH.load_items
         ),
 
+        Pavilion(
+            id=MATCH.pid,
+            x=MATCH.px,
+            y=MATCH.py,
+            flower_type=MATCH.flower_type
+        ),
+
         TEST(lambda total: total > 0),
         TEST(lambda total, max_load: total <= max_load),
         TEST(lambda load_items, delivered_keys:
@@ -81,12 +87,17 @@ class LoadRules:
         pid,
         total,
         counted_needs,
-        load_items
+        load_items,
+        px,
+        py,
+        flower_type
     ):
         new_load = load_items
         new_key = (wx, wy, new_load, delivered_keys)
 
-        flower_type = load_items[0][1]
+        new_g = g + 1
+        new_h = manhattan_distance(wx, wy, px, py)
+        new_f = new_g + new_h
 
         self.declare(
             State(
@@ -97,19 +108,14 @@ class LoadRules:
                 steps=steps + (
                     f"load same type pavilion {pid} {flower_type}: {describe_load(load_items)}",
                 ),
-                g=g + 1,
-                h=h,
-                f=f + 1,
+                g=new_g,
+                h=new_h,
+                f=new_f,
                 depth=depth + 1,
                 visited_keys=visited_keys + (new_key,),
                 delivered_keys=delivered_keys
             )
         )
-
-    # ==========================================
-    # OPTION A:
-    # تحميل نفس اللون من أنواع مختلفة
-    # ==========================================
 
     @Rule(
         Warehouse(x=MATCH.wx, y=MATCH.wy),
@@ -136,10 +142,19 @@ class LoadRules:
             load_items=MATCH.load_items
         ),
 
+        Pavilion(
+            id=MATCH.target_pid,
+            x=MATCH.px,
+            y=MATCH.py,
+            flower_type=MATCH.target_flower_type
+        ),
+
         TEST(lambda total: total > 0),
         TEST(lambda total, max_load: total <= max_load),
         TEST(lambda load_items, delivered_keys:
              load_items_not_delivered(load_items, delivered_keys)),
+        TEST(lambda load_items, target_pid:
+             len(load_items) > 0 and load_items[0][0] == target_pid),
 
         salience=25
     )
@@ -158,10 +173,18 @@ class LoadRules:
         color,
         total,
         counted_needs,
-        load_items
+        load_items,
+        target_pid,
+        px,
+        py,
+        target_flower_type
     ):
         new_load = load_items
         new_key = (wx, wy, new_load, delivered_keys)
+
+        new_g = g + 1
+        new_h = manhattan_distance(wx, wy, px, py)
+        new_f = new_g + new_h
 
         self.declare(
             State(
@@ -172,9 +195,9 @@ class LoadRules:
                 steps=steps + (
                     f"load same color {color}: {describe_load(load_items)}",
                 ),
-                g=g + 1,
-                h=h,
-                f=f + 1,
+                g=new_g,
+                h=new_h,
+                f=new_f,
                 depth=depth + 1,
                 visited_keys=visited_keys + (new_key,),
                 delivered_keys=delivered_keys
