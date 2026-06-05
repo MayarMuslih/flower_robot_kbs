@@ -1,0 +1,2 @@
+class PrintRules:
+    pass

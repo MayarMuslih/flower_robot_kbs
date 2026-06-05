@@ -1,0 +1,2 @@
+class ConstraintRules:
+    pass
