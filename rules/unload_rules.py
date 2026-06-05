@@ -1,6 +1,7 @@
 from experta import Rule, MATCH, TEST
 
 from facts.facts import Pavilion, State
+from utils.search_logger import log_state
 
 
 def manhattan_distance(x1, y1, x2, y2):
@@ -72,6 +73,10 @@ def first_load_flower_type(load):
 
 class UnloadRules:
 
+    # ==========================================
+    # UNLOAD AND ROBOT BECOMES EMPTY
+    # ==========================================
+
     @Rule(
         State(
             robot_x=MATCH.x,
@@ -132,6 +137,22 @@ class UnloadRules:
         new_g = g + 1
         new_h = 0
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"unload pavilion {pid} {flower_type}: {describe_load(delivered_part)}"
+
+        log_state(
+            action=action,
+            x=x,
+            y=y,
+            load=remaining_load,
+            load_count=new_load_count,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=new_delivered_keys
+        )
 
         self.declare(
             State(
@@ -139,18 +160,19 @@ class UnloadRules:
                 robot_y=y,
                 load=remaining_load,
                 load_count=new_load_count,
-                steps=steps + (
-                    f"unload pavilion {pid} {flower_type}: {describe_load(delivered_part)}",
-                ),
+                steps=steps + (action,),
                 g=new_g,
                 h=new_h,
                 f=new_f,
-                depth=depth + 1,
+                depth=new_depth,
                 visited_keys=visited_keys + (new_key,),
                 delivered_keys=new_delivered_keys
             )
         )
 
+    # ==========================================
+    # UNLOAD AND ROBOT STILL HAS REMAINING LOAD
+    # ==========================================
 
     @Rule(
         State(
@@ -230,6 +252,22 @@ class UnloadRules:
         new_g = g + 1
         new_h = manhattan_distance(x, y, next_x, next_y)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"unload pavilion {pid} {flower_type}: {describe_load(delivered_part)}"
+
+        log_state(
+            action=action,
+            x=x,
+            y=y,
+            load=remaining_load,
+            load_count=new_load_count,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=new_delivered_keys
+        )
 
         self.declare(
             State(
@@ -237,13 +275,11 @@ class UnloadRules:
                 robot_y=y,
                 load=remaining_load,
                 load_count=new_load_count,
-                steps=steps + (
-                    f"unload pavilion {pid} {flower_type}: {describe_load(delivered_part)}",
-                ),
+                steps=steps + (action,),
                 g=new_g,
                 h=new_h,
                 f=new_f,
-                depth=depth + 1,
+                depth=new_depth,
                 visited_keys=visited_keys + (new_key,),
                 delivered_keys=new_delivered_keys
             )

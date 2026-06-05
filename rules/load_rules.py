@@ -1,6 +1,7 @@
 from experta import Rule, MATCH, TEST
 
 from facts.facts import Warehouse, Pavilion, PavilionLoad, ColorLoad, MaxLoad, State
+from utils.search_logger import log_state
 
 
 def manhattan_distance(x1, y1, x2, y2):
@@ -32,6 +33,11 @@ def describe_load(load_items):
 
 
 class LoadRules:
+
+    # ==========================================
+    # OPTION B:
+    # Load different colors of the same flower type / same pavilion
+    # ==========================================
 
     @Rule(
         Warehouse(x=MATCH.wx, y=MATCH.wy),
@@ -98,6 +104,22 @@ class LoadRules:
         new_g = g + 1
         new_h = manhattan_distance(wx, wy, px, py)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"load same type pavilion {pid} {flower_type}: {describe_load(load_items)}"
+
+        log_state(
+            action=action,
+            x=wx,
+            y=wy,
+            load=new_load,
+            load_count=total,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(
             State(
@@ -105,17 +127,20 @@ class LoadRules:
                 robot_y=wy,
                 load=new_load,
                 load_count=total,
-                steps=steps + (
-                    f"load same type pavilion {pid} {flower_type}: {describe_load(load_items)}",
-                ),
+                steps=steps + (action,),
                 g=new_g,
                 h=new_h,
                 f=new_f,
-                depth=depth + 1,
+                depth=new_depth,
                 visited_keys=visited_keys + (new_key,),
                 delivered_keys=delivered_keys
             )
         )
+
+    # ==========================================
+    # OPTION A:
+    # Load the same color from different flower types
+    # ==========================================
 
     @Rule(
         Warehouse(x=MATCH.wx, y=MATCH.wy),
@@ -185,6 +210,22 @@ class LoadRules:
         new_g = g + 1
         new_h = manhattan_distance(wx, wy, px, py)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"load same color {color}: {describe_load(load_items)}"
+
+        log_state(
+            action=action,
+            x=wx,
+            y=wy,
+            load=new_load,
+            load_count=total,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(
             State(
@@ -192,13 +233,11 @@ class LoadRules:
                 robot_y=wy,
                 load=new_load,
                 load_count=total,
-                steps=steps + (
-                    f"load same color {color}: {describe_load(load_items)}",
-                ),
+                steps=steps + (action,),
                 g=new_g,
                 h=new_h,
                 f=new_f,
-                depth=depth + 1,
+                depth=new_depth,
                 visited_keys=visited_keys + (new_key,),
                 delivered_keys=delivered_keys
             )

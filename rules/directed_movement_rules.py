@@ -1,6 +1,7 @@
 from experta import Rule, MATCH, TEST
 
-from facts.facts import Grid, Warehouse, Pavilion, State
+from facts.facts import Warehouse, Pavilion, State
+from utils.search_logger import log_state
 
 
 MAX_DEPTH = 120
@@ -41,17 +42,33 @@ class DirectedMovementRules:
         new_g = g + 1
         new_h = manhattan_distance(new_x, new_y, wx, wy)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"move_right to ({new_x}, {new_y})"
+
+        log_state(
+            action=action,
+            x=new_x,
+            y=new_y,
+            load=(),
+            load_count=0,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(State(
             robot_x=new_x,
             robot_y=new_y,
             load=(),
             load_count=0,
-            steps=steps + (f"move_right to ({new_x}, {new_y})",),
+            steps=steps + (action,),
             g=new_g,
             h=new_h,
             f=new_f,
-            depth=depth + 1,
+            depth=new_depth,
             visited_keys=visited_keys + (new_key,),
             delivered_keys=delivered_keys
         ))
@@ -85,17 +102,33 @@ class DirectedMovementRules:
         new_g = g + 1
         new_h = manhattan_distance(new_x, new_y, wx, wy)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"move_left to ({new_x}, {new_y})"
+
+        log_state(
+            action=action,
+            x=new_x,
+            y=new_y,
+            load=(),
+            load_count=0,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(State(
             robot_x=new_x,
             robot_y=new_y,
             load=(),
             load_count=0,
-            steps=steps + (f"move_left to ({new_x}, {new_y})",),
+            steps=steps + (action,),
             g=new_g,
             h=new_h,
             f=new_f,
-            depth=depth + 1,
+            depth=new_depth,
             visited_keys=visited_keys + (new_key,),
             delivered_keys=delivered_keys
         ))
@@ -129,17 +162,33 @@ class DirectedMovementRules:
         new_g = g + 1
         new_h = manhattan_distance(new_x, new_y, wx, wy)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"move_down to ({new_x}, {new_y})"
+
+        log_state(
+            action=action,
+            x=new_x,
+            y=new_y,
+            load=(),
+            load_count=0,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(State(
             robot_x=new_x,
             robot_y=new_y,
             load=(),
             load_count=0,
-            steps=steps + (f"move_down to ({new_x}, {new_y})",),
+            steps=steps + (action,),
             g=new_g,
             h=new_h,
             f=new_f,
-            depth=depth + 1,
+            depth=new_depth,
             visited_keys=visited_keys + (new_key,),
             delivered_keys=delivered_keys
         ))
@@ -173,17 +222,33 @@ class DirectedMovementRules:
         new_g = g + 1
         new_h = manhattan_distance(new_x, new_y, wx, wy)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"move_up to ({new_x}, {new_y})"
+
+        log_state(
+            action=action,
+            x=new_x,
+            y=new_y,
+            load=(),
+            load_count=0,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(State(
             robot_x=new_x,
             robot_y=new_y,
             load=(),
             load_count=0,
-            steps=steps + (f"move_up to ({new_x}, {new_y})",),
+            steps=steps + (action,),
             g=new_g,
             h=new_h,
             f=new_f,
-            depth=depth + 1,
+            depth=new_depth,
             visited_keys=visited_keys + (new_key,),
             delivered_keys=delivered_keys
         ))
@@ -225,17 +290,33 @@ class DirectedMovementRules:
         new_g = g + 1
         new_h = manhattan_distance(new_x, new_y, px, py)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"move_right to ({new_x}, {new_y})"
+
+        log_state(
+            action=action,
+            x=new_x,
+            y=new_y,
+            load=load,
+            load_count=load_count,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(State(
             robot_x=new_x,
             robot_y=new_y,
             load=load,
             load_count=load_count,
-            steps=steps + (f"move_right to ({new_x}, {new_y})",),
+            steps=steps + (action,),
             g=new_g,
             h=new_h,
             f=new_f,
-            depth=depth + 1,
+            depth=new_depth,
             visited_keys=visited_keys + (new_key,),
             delivered_keys=delivered_keys
         ))
@@ -277,17 +358,33 @@ class DirectedMovementRules:
         new_g = g + 1
         new_h = manhattan_distance(new_x, new_y, px, py)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"move_left to ({new_x}, {new_y})"
+
+        log_state(
+            action=action,
+            x=new_x,
+            y=new_y,
+            load=load,
+            load_count=load_count,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(State(
             robot_x=new_x,
             robot_y=new_y,
             load=load,
             load_count=load_count,
-            steps=steps + (f"move_left to ({new_x}, {new_y})",),
+            steps=steps + (action,),
             g=new_g,
             h=new_h,
             f=new_f,
-            depth=depth + 1,
+            depth=new_depth,
             visited_keys=visited_keys + (new_key,),
             delivered_keys=delivered_keys
         ))
@@ -329,17 +426,33 @@ class DirectedMovementRules:
         new_g = g + 1
         new_h = manhattan_distance(new_x, new_y, px, py)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"move_down to ({new_x}, {new_y})"
+
+        log_state(
+            action=action,
+            x=new_x,
+            y=new_y,
+            load=load,
+            load_count=load_count,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(State(
             robot_x=new_x,
             robot_y=new_y,
             load=load,
             load_count=load_count,
-            steps=steps + (f"move_down to ({new_x}, {new_y})",),
+            steps=steps + (action,),
             g=new_g,
             h=new_h,
             f=new_f,
-            depth=depth + 1,
+            depth=new_depth,
             visited_keys=visited_keys + (new_key,),
             delivered_keys=delivered_keys
         ))
@@ -381,17 +494,33 @@ class DirectedMovementRules:
         new_g = g + 1
         new_h = manhattan_distance(new_x, new_y, px, py)
         new_f = new_g + new_h
+        new_depth = depth + 1
+
+        action = f"move_up to ({new_x}, {new_y})"
+
+        log_state(
+            action=action,
+            x=new_x,
+            y=new_y,
+            load=load,
+            load_count=load_count,
+            g=new_g,
+            h=new_h,
+            f=new_f,
+            depth=new_depth,
+            delivered_keys=delivered_keys
+        )
 
         self.declare(State(
             robot_x=new_x,
             robot_y=new_y,
             load=load,
             load_count=load_count,
-            steps=steps + (f"move_up to ({new_x}, {new_y})",),
+            steps=steps + (action,),
             g=new_g,
             h=new_h,
             f=new_f,
-            depth=depth + 1,
+            depth=new_depth,
             visited_keys=visited_keys + (new_key,),
             delivered_keys=delivered_keys
         ))

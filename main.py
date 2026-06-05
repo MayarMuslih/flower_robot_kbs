@@ -1,6 +1,6 @@
 from engine import FlowerRobotEngine
 from data.initial_state import initial_facts
-
+from utils.search_logger import clear_search_tree_file
 
 def declare_initial_facts(engine, facts, index=0):
     if index == len(facts):
@@ -13,6 +13,8 @@ def declare_initial_facts(engine, facts, index=0):
 def main():
     engine = FlowerRobotEngine()
     engine.reset()
+
+    clear_search_tree_file()
 
     print("Knowledge Base System Started")
     print("=" * 60)

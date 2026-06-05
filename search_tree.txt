@@ -1,0 +1,4178 @@
+SEARCH TREE GENERATED STATES
+================================================================================
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 2)
+Robot Position: (3, 2)
+Load: empty
+Load Count: 0
+g(n): 1
+h(n): 0
+f(n): 1
+Depth: 1
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 4 goliat_rose: light_pink x2 + gold x2
+Robot Position: (3, 2)
+Load: goliat_rose light_pink x2 + goliat_rose gold x2
+Load Count: 4
+g(n): 2
+h(n): 2
+f(n): 4
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (3, 2)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 2
+h(n): 4
+f(n): 6
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (3, 2)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 2
+h(n): 2
+f(n): 4
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (3, 2)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 2
+h(n): 3
+f(n): 5
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color light_pink: light_pink x2
+Robot Position: (3, 2)
+Load: goliat_rose light_pink x2
+Load Count: 2
+g(n): 2
+h(n): 2
+f(n): 4
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color gold: gold x2
+Robot Position: (3, 2)
+Load: goliat_rose gold x2
+Load Count: 2
+g(n): 2
+h(n): 2
+f(n): 4
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color pink: pink x1 + pink x1
+Robot Position: (3, 2)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 2
+h(n): 4
+f(n): 6
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color purple: purple x2
+Robot Position: (3, 2)
+Load: orchid purple x2
+Load Count: 2
+g(n): 2
+h(n): 4
+f(n): 6
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color yellow: yellow x1
+Robot Position: (3, 2)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 2
+h(n): 2
+f(n): 4
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color white: white x1
+Robot Position: (3, 2)
+Load: rose white x1
+Load Count: 1
+g(n): 2
+h(n): 3
+f(n): 5
+Depth: 2
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 2)
+Robot Position: (2, 2)
+Load: rose white x1
+Load Count: 1
+g(n): 3
+h(n): 2
+f(n): 5
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 4
+h(n): 1
+f(n): 5
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 3
+h(n): 2
+f(n): 5
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 4
+h(n): 1
+f(n): 5
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 4
+h(n): 1
+f(n): 5
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 3
+h(n): 1
+f(n): 4
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 4
+h(n): 0
+f(n): 4
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: (2, 'yellow')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 3
+h(n): 1
+f(n): 4
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 4
+h(n): 0
+f(n): 4
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: (2, 'yellow')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: orchid purple x2
+Load Count: 2
+g(n): 3
+h(n): 3
+f(n): 6
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: orchid purple x2
+Load Count: 2
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid purple x2
+Load Count: 2
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: orchid purple x2
+Load Count: 2
+g(n): 3
+h(n): 3
+f(n): 6
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: orchid purple x2
+Load Count: 2
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid purple x2
+Load Count: 2
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: orchid purple x2
+Load Count: 2
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 4)
+Robot Position: (4, 4)
+Load: orchid purple x2
+Load Count: 2
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 5)
+Robot Position: (3, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 5)
+Robot Position: (4, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 3
+h(n): 3
+f(n): 6
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1
+Robot Position: (4, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 7
+h(n): 3
+f(n): 10
+Depth: 7
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 5)
+Robot Position: (3, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 5)
+Robot Position: (2, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 3
+h(n): 3
+f(n): 6
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1
+Robot Position: (4, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 7
+h(n): 3
+f(n): 10
+Depth: 7
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 5)
+Robot Position: (3, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 5)
+Robot Position: (2, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1
+Robot Position: (4, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 7
+h(n): 3
+f(n): 10
+Depth: 7
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 5)
+Robot Position: (3, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 5)
+Robot Position: (2, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 5)
+Robot Position: (3, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1
+Robot Position: (4, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 7
+h(n): 3
+f(n): 10
+Depth: 7
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 5)
+Robot Position: (3, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 5)
+Robot Position: (2, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: goliat_rose gold x2
+Load Count: 2
+g(n): 3
+h(n): 1
+f(n): 4
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (5, 2)
+Robot Position: (5, 2)
+Load: goliat_rose gold x2
+Load Count: 2
+g(n): 4
+h(n): 0
+f(n): 4
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 4 goliat_rose: gold x2
+Robot Position: (5, 2)
+Load: empty
+Load Count: 0
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: goliat_rose light_pink x2
+Load Count: 2
+g(n): 3
+h(n): 1
+f(n): 4
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (5, 2)
+Robot Position: (5, 2)
+Load: goliat_rose light_pink x2
+Load Count: 2
+g(n): 4
+h(n): 0
+f(n): 4
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 4 goliat_rose: light_pink x2
+Robot Position: (5, 2)
+Load: empty
+Load Count: 0
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: (4, 'light_pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 2)
+Robot Position: (2, 2)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 3
+h(n): 2
+f(n): 5
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 4
+h(n): 1
+f(n): 5
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 3
+h(n): 2
+f(n): 5
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 4
+h(n): 1
+f(n): 5
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 4
+h(n): 1
+f(n): 5
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 3
+h(n): 1
+f(n): 4
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 4
+h(n): 0
+f(n): 4
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 3
+h(n): 1
+f(n): 4
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 4
+h(n): 0
+f(n): 4
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 3
+h(n): 3
+f(n): 6
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 3
+h(n): 3
+f(n): 6
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 4
+h(n): 2
+f(n): 6
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 5)
+Robot Position: (3, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 5
+h(n): 1
+f(n): 6
+Depth: 5
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 6
+h(n): 0
+f(n): 6
+Depth: 6
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: goliat_rose light_pink x2 + goliat_rose gold x2
+Load Count: 4
+g(n): 3
+h(n): 1
+f(n): 4
+Depth: 3
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (5, 2)
+Robot Position: (5, 2)
+Load: goliat_rose light_pink x2 + goliat_rose gold x2
+Load Count: 4
+g(n): 4
+h(n): 0
+f(n): 4
+Depth: 4
+Delivered: none
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 4 goliat_rose: light_pink x2 + gold x2
+Robot Position: (5, 2)
+Load: empty
+Load Count: 0
+g(n): 5
+h(n): 0
+f(n): 5
+Depth: 5
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (4, 2)
+Robot Position: (4, 2)
+Load: empty
+Load Count: 0
+g(n): 6
+h(n): 1
+f(n): 7
+Depth: 6
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 2)
+Robot Position: (3, 2)
+Load: empty
+Load Count: 0
+g(n): 7
+h(n): 0
+f(n): 7
+Depth: 7
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (3, 2)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 8
+h(n): 4
+f(n): 12
+Depth: 8
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (3, 2)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (3, 2)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 8
+h(n): 3
+f(n): 11
+Depth: 8
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color pink: pink x1 + pink x1
+Robot Position: (3, 2)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 8
+h(n): 4
+f(n): 12
+Depth: 8
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color purple: purple x2
+Robot Position: (3, 2)
+Load: orchid purple x2
+Load Count: 2
+g(n): 8
+h(n): 4
+f(n): 12
+Depth: 8
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color yellow: yellow x1
+Robot Position: (3, 2)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 8
+h(n): 2
+f(n): 10
+Depth: 8
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color white: white x1
+Robot Position: (3, 2)
+Load: rose white x1
+Load Count: 1
+g(n): 8
+h(n): 3
+f(n): 11
+Depth: 8
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 2)
+Robot Position: (2, 2)
+Load: rose white x1
+Load Count: 1
+g(n): 9
+h(n): 2
+f(n): 11
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 10
+h(n): 1
+f(n): 11
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 9
+h(n): 2
+f(n): 11
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 10
+h(n): 1
+f(n): 11
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 10
+h(n): 1
+f(n): 11
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold'), (2, 'yellow')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold'), (2, 'yellow')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: orchid purple x2
+Load Count: 2
+g(n): 9
+h(n): 3
+f(n): 12
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: orchid purple x2
+Load Count: 2
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid purple x2
+Load Count: 2
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 13
+h(n): 0
+f(n): 13
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: orchid purple x2
+Load Count: 2
+g(n): 9
+h(n): 3
+f(n): 12
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: orchid purple x2
+Load Count: 2
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid purple x2
+Load Count: 2
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 13
+h(n): 0
+f(n): 13
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: orchid purple x2
+Load Count: 2
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 4)
+Robot Position: (4, 4)
+Load: orchid purple x2
+Load Count: 2
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 13
+h(n): 0
+f(n): 13
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 5)
+Robot Position: (3, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 5)
+Robot Position: (4, 5)
+Load: orchid purple x2
+Load Count: 2
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 13
+h(n): 0
+f(n): 13
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 9
+h(n): 3
+f(n): 12
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1
+Robot Position: (4, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 13
+h(n): 3
+f(n): 16
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 5)
+Robot Position: (3, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 14
+h(n): 2
+f(n): 16
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 5)
+Robot Position: (2, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 14
+h(n): 2
+f(n): 16
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 9
+h(n): 3
+f(n): 12
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1
+Robot Position: (4, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 13
+h(n): 3
+f(n): 16
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 5)
+Robot Position: (3, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 14
+h(n): 2
+f(n): 16
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 5)
+Robot Position: (2, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 14
+h(n): 2
+f(n): 16
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1
+Robot Position: (4, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 13
+h(n): 3
+f(n): 16
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 5)
+Robot Position: (3, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 14
+h(n): 2
+f(n): 16
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 5)
+Robot Position: (2, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 14
+h(n): 2
+f(n): 16
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 5)
+Robot Position: (3, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + rose pink x1
+Load Count: 2
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1
+Robot Position: (4, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 13
+h(n): 3
+f(n): 16
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 5)
+Robot Position: (3, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 14
+h(n): 2
+f(n): 16
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 5)
+Robot Position: (2, 5)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 14
+h(n): 2
+f(n): 16
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 4)
+Robot Position: (3, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 15
+h(n): 1
+f(n): 16
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose pink x1
+Load Count: 1
+g(n): 16
+h(n): 0
+f(n): 16
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: pink x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (1, 'pink')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 2)
+Robot Position: (2, 2)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 9
+h(n): 2
+f(n): 11
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 10
+h(n): 1
+f(n): 11
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold'), (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 9
+h(n): 2
+f(n): 11
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 10
+h(n): 1
+f(n): 11
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold'), (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 10
+h(n): 1
+f(n): 11
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold'), (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 9
+h(n): 1
+f(n): 10
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 10
+h(n): 0
+f(n): 10
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 11
+h(n): 0
+f(n): 11
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 9
+h(n): 3
+f(n): 12
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 13
+h(n): 0
+f(n): 13
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 9
+h(n): 3
+f(n): 12
+Depth: 9
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 13
+h(n): 0
+f(n): 13
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 10
+h(n): 2
+f(n): 12
+Depth: 10
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 4)
+Robot Position: (4, 4)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 13
+h(n): 0
+f(n): 13
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 5)
+Robot Position: (3, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 11
+h(n): 1
+f(n): 12
+Depth: 11
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 5)
+Robot Position: (4, 5)
+Load: orchid pink x1 + orchid purple x2
+Load Count: 3
+g(n): 12
+h(n): 0
+f(n): 12
+Depth: 12
+Delivered: (4, 'light_pink'), (4, 'gold')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 3 orchid: pink x1 + purple x2
+Robot Position: (4, 5)
+Load: empty
+Load Count: 0
+g(n): 13
+h(n): 0
+f(n): 13
+Depth: 13
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 4)
+Robot Position: (4, 4)
+Load: empty
+Load Count: 0
+g(n): 14
+h(n): 3
+f(n): 17
+Depth: 14
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 3)
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 15
+h(n): 2
+f(n): 17
+Depth: 15
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 2)
+Robot Position: (4, 2)
+Load: empty
+Load Count: 0
+g(n): 16
+h(n): 1
+f(n): 17
+Depth: 16
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 2)
+Robot Position: (3, 2)
+Load: empty
+Load Count: 0
+g(n): 17
+h(n): 0
+f(n): 17
+Depth: 17
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (3, 2)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 18
+h(n): 2
+f(n): 20
+Depth: 18
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (3, 2)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 18
+h(n): 3
+f(n): 21
+Depth: 18
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color yellow: yellow x1
+Robot Position: (3, 2)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 18
+h(n): 2
+f(n): 20
+Depth: 18
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color white: white x1
+Robot Position: (3, 2)
+Load: rose white x1
+Load Count: 1
+g(n): 18
+h(n): 3
+f(n): 21
+Depth: 18
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 2)
+Robot Position: (2, 2)
+Load: rose white x1
+Load Count: 1
+g(n): 19
+h(n): 2
+f(n): 21
+Depth: 19
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 20
+h(n): 1
+f(n): 21
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 22
+h(n): 0
+f(n): 22
+Depth: 22
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 19
+h(n): 2
+f(n): 21
+Depth: 19
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 20
+h(n): 1
+f(n): 21
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 22
+h(n): 0
+f(n): 22
+Depth: 22
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 20
+h(n): 1
+f(n): 21
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 22
+h(n): 0
+f(n): 22
+Depth: 22
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 19
+h(n): 1
+f(n): 20
+Depth: 19
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 20
+h(n): 0
+f(n): 20
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 19
+h(n): 1
+f(n): 20
+Depth: 19
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1
+Load Count: 1
+g(n): 20
+h(n): 0
+f(n): 20
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 2)
+Robot Position: (2, 2)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 19
+h(n): 2
+f(n): 21
+Depth: 19
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 20
+h(n): 1
+f(n): 21
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 22
+h(n): 0
+f(n): 22
+Depth: 22
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 19
+h(n): 2
+f(n): 21
+Depth: 19
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 20
+h(n): 1
+f(n): 21
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 22
+h(n): 0
+f(n): 22
+Depth: 22
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 20
+h(n): 1
+f(n): 21
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 22
+h(n): 0
+f(n): 22
+Depth: 22
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (1, 'white'), (1, 'pink'), (1, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 2)
+Robot Position: (4, 2)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 19
+h(n): 1
+f(n): 20
+Depth: 19
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 20
+h(n): 0
+f(n): 20
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 19
+h(n): 1
+f(n): 20
+Depth: 19
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_right to (4, 3)
+Robot Position: (4, 3)
+Load: tulip yellow x1 + tulip red x3
+Load Count: 4
+g(n): 20
+h(n): 0
+f(n): 20
+Depth: 20
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 2 tulip: yellow x1 + red x3
+Robot Position: (4, 3)
+Load: empty
+Load Count: 0
+g(n): 21
+h(n): 0
+f(n): 21
+Depth: 21
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_up to (4, 2)
+Robot Position: (4, 2)
+Load: empty
+Load Count: 0
+g(n): 22
+h(n): 1
+f(n): 23
+Depth: 22
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (3, 2)
+Robot Position: (3, 2)
+Load: empty
+Load Count: 0
+g(n): 23
+h(n): 0
+f(n): 23
+Depth: 23
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same type pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (3, 2)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 24
+h(n): 3
+f(n): 27
+Depth: 24
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: load same color white: white x1
+Robot Position: (3, 2)
+Load: rose white x1
+Load Count: 1
+g(n): 24
+h(n): 3
+f(n): 27
+Depth: 24
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 2)
+Robot Position: (2, 2)
+Load: rose white x1
+Load Count: 1
+g(n): 25
+h(n): 2
+f(n): 27
+Depth: 25
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 26
+h(n): 1
+f(n): 27
+Depth: 26
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 27
+h(n): 0
+f(n): 27
+Depth: 27
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 28
+h(n): 0
+f(n): 28
+Depth: 28
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 3)
+Robot Position: (3, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 25
+h(n): 2
+f(n): 27
+Depth: 25
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1
+Load Count: 1
+g(n): 26
+h(n): 1
+f(n): 27
+Depth: 26
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 27
+h(n): 0
+f(n): 27
+Depth: 27
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 28
+h(n): 0
+f(n): 28
+Depth: 28
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (3, 4)
+Robot Position: (3, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 26
+h(n): 1
+f(n): 27
+Depth: 26
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1
+Load Count: 1
+g(n): 27
+h(n): 0
+f(n): 27
+Depth: 27
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 28
+h(n): 0
+f(n): 28
+Depth: 28
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red'), (1, 'white')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_left to (2, 2)
+Robot Position: (2, 2)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 25
+h(n): 2
+f(n): 27
+Depth: 25
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 3)
+Robot Position: (2, 3)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 26
+h(n): 1
+f(n): 27
+Depth: 26
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: move_down to (2, 4)
+Robot Position: (2, 4)
+Load: rose white x1 + rose pink x1 + rose red x2
+Load Count: 4
+g(n): 27
+h(n): 0
+f(n): 27
+Depth: 27
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red')
+
+Generated State
+--------------------------------------------------------------------------------
+Action: unload pavilion 1 rose: white x1 + pink x1 + red x2
+Robot Position: (2, 4)
+Load: empty
+Load Count: 0
+g(n): 28
+h(n): 0
+f(n): 28
+Depth: 28
+Delivered: (4, 'light_pink'), (4, 'gold'), (3, 'pink'), (3, 'purple'), (2, 'yellow'), (2, 'red'), (1, 'white'), (1, 'pink'), (1, 'red')
